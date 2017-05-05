@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Accordion</title>
+
+    <script type="text/javascript" src='scripts/jquery.min.js'></script>
+    <script type="text/javascript" src='scripts/bootstrap.min.js'></script>
+
+    <link rel="stylesheet" href="http://bootswatch.com/darkly/bootstrap.min.css">
+
+    <style media="all">
+      @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i');
+      body {
+        font-family: 'PT Sans', serif;
+        padding-top: 20px;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'PT Sans Caption', serif;
+        font-weight: bold;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Submit Album</h1>
+      </div>
+      <div class="panel-group" id="myAcc">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#myAcc" href="#myAcc-1">
+                Album and Author
+              </a>
+            </h4>
+          </div>
+          <div id="myAcc-1" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#myAcc" href="#myAcc-2">
+                Track Information
+              </a>
+            </h4>
+          </div>
+          <div id="myAcc-2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#myAcc" href="#myAcc-3">
+                Track Information
+              </a>
+            </h4>
+          </div>
+          <div id="myAcc-3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, eligendi illo. Ab labore asperiores praesentium dolore, earum veniam mollitia ipsum architecto. Doloribus corrupti molestiae beatae, commodi quis at, itaque vel!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi eos cum in ipsa ducimus maxime aspernatur pariatur culpa eaque! Maxime unde porro necessitatibus nihil, sint ratione ipsam quod optio error!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
